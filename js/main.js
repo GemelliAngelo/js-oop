@@ -3,6 +3,4 @@ console.log(Fiat.informazioni());
 console.log(Fiat.calcolaEta());
 
 const Opel = new Automobile("Opel", 2020, "nero", 4, "benzina");
-console.log(
-  `Questa automobile ha ${Opel.numeroPorte} porte ed è alimentata a ${Opel.carburante}`
-);
+console.log(Opel.moreInfo());
