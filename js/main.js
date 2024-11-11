@@ -8,7 +8,11 @@ class Veicolo {
     this.anno = anno;
     this.colore = colore;
   }
+
+  informazioni() {
+    return `Questo veicolo è una ${this.marca} del ${this.anno} di colore ${this.colore}`;
+  }
 }
 
 const Fiat = new Veicolo("Fiat", 2019, "blu");
-console.log(Fiat);
+console.log(Fiat.informazioni());
